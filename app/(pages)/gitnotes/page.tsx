@@ -1,10 +1,10 @@
 
 import Link from "next/link";
 
-export default function GitGithub (){
- 
-    return(
-        <div>
+export default function GitGithub() {
+
+    return (
+        <div className="text-[#fafafa]">
             <h1>Git e Github - Basics</h1>
 
             <ul>
