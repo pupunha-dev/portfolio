@@ -1,6 +1,24 @@
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+
+
 export default function JsNotes() {
   return (
     <div className="flex flex-col text-[#fafafa] p-8 space-y-6">
+
+      <Accordion type="single" collapsible>
+        <AccordionItem value="item-1">
+          <AccordionTrigger>Is it accessible?</AccordionTrigger>
+          <AccordionContent>
+            Yes. It adheres to the WAI-ARIA design pattern.
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+
 
       <ul>
         <li className="font-black text-xl">Sintaxe Básica</li>
