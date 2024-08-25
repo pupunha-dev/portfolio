@@ -7,7 +7,7 @@ import jsDados from "@/app/dados/jsDados";
 
 export default function JsNotes() {
   return (
-    <div className="flex flex-col text-[#fafafa] p-8 space-y-6">
+    <div className="">
 
       <h1 className="text-2xl font-black">Meu Roadmap</h1>
 

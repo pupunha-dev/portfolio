@@ -4,7 +4,7 @@ import { fontVt, fontPixel } from "@/assets/fonts";
 export default function GitGithub() {
 
     return (
-        <div className="w-3/5 h-screen mt-16">
+        <div>
             <h1 className={`${fontPixel.className} text-4xl font-bold`}>Git e Github - Basics</h1>
 
             <ul className="text-2xl">
