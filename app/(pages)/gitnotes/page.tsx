@@ -1,13 +1,13 @@
-
 import Link from "next/link";
+import { fontVt, fontPixel } from "@/assets/fonts";
 
 export default function GitGithub() {
 
     return (
-        <div className="text-[#fafafa]">
-            <h1>Git e Github - Basics</h1>
+        <div className="w-3/5 h-screen mt-16">
+            <h1 className={`${fontPixel.className} text-4xl font-bold`}>Git e Github - Basics</h1>
 
-            <ul>
+            <ul className="text-2xl">
                 <li>1. git config --global user.name username</li>
                 <li>2. git config --global user.email useremail</li>
                 <li>3. git init</li>

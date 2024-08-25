@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Nunito } from "next/font/google";
+import {fontVt} from "@/assets/fonts"
 import "./globals.css";
 import { Header } from "@/components/Header";
-
-const font = Nunito({ subsets: ["latin"] });
+import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Pupunha Dev - Site Pessoal",
@@ -17,9 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${font.className} bg-slate-950`}>
+      <body className={`flex flex-col items-center ${fontVt.className} bg-slate-950 bg-hero-pattern bg-no-repeat bg-cover`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
